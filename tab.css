@@ -1,0 +1,22 @@
+#nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#nav li{
+	width: 200px;
+	display: inline-block;
+	*display:inline;
+	zoom:1;
+	cursor: pointer;
+	line-height: 48px;
+	text-align: center;
+	background: #eee;
+}
+#nav .active{
+	background: #ddd;
+}
+#navContent{
+	background: #bbb;
+	width: 600px;
+}
